@@ -5,10 +5,10 @@ for( let i = 0; i <10 ; i++){
     let nombreUsuario = prompt("Ingresar nombre");
     let votoAb = prompt("Ingresar A o B");
 
-    if( votoAb == " A " || votoAb == " a "){
+    if( votoAb == "A" || votoAb == "a"){
         console.log(" Usuario " + nombreUsuario + " Voto A ");
     }
-    else if( votoAb ==" B " || votoAb == " b "){
+    else if( votoAb =="B" || votoAb == "b"){
         console.log(" Usuario " + nombreUsuario + " Voto B ");
     }
     
